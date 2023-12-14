@@ -1,4 +1,6 @@
 const getTheTitles = function() {
+     const bookTitles = {books.title};
+     return bookTitles
 
 };
 

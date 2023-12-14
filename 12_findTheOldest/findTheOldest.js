@@ -1,4 +1,11 @@
-const findTheOldest = function() {
+const findTheOldest = function(a,b) {
+   let ageA = a.yearOfDeath - a.yearOfBirth;
+   let ageB = b.yearOfDeath - b.yearOfBirth;
+   if(ageA > ageB){
+    return 1
+   } else {
+    return -1
+   }
 
 };
 

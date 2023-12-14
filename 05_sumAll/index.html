@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+const sumAll = function(numA,numB) {
+    if(!Number.isInteger(numA) || !Number.isInteger(numB)) return "Error" ;
+    if(numA < 0 || numB < 0) return "Error";
+    if (numA > numB){
+       const temp = numB;
+        numB = numA;
+        numA = temp;
+    }
+
+    let sum = 0;
+    for(i=numA ; i>= numB ; i++){
+        sum+= i;
+    }
+    return sum;
+
+
+    
+}
+
+    </script>
+</body>
+</html>
